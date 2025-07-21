@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+#main-content {
+  display: flex;
+  min-height: 100vh;
+}
+
+#welcome-section {
+  flex: 0 0 35%;
+  padding: 160px 2rem 2rem;
+  text-align: left;
+  background: linear-gradient(to right, #4fc3f7, #81d4fa);
+  color: #fff;
+}
+
+#projects {
+  flex: 1;
+  padding: 5rem 2rem;
+  background-color: #fff;
+  text-align: left;
+  overflow-y: auto;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #222;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  z-index: 999;
+}
+
+#navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+#navbar a:hover {
+  color: #4fc3f7;
+}
+
+#welcome-section {
+  min-height: 100vh;
+  padding: 160px 2rem 2rem;
+  text-align: center;
+  background: linear-gradient(to right, #4fc3f7, #81d4fa);
+  color: #fff;
+}
+
+#welcome-section h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#welcome-section p {
+  max-width: 700px;
+  margin: 0.5rem auto;
+  font-size: 1.1rem;
+}
+
+#welcome-section a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+#welcome-section a:hover {
+  color: #333;
+}
+
+#projects {
+  padding: 5rem 2rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+#projects h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.project-link {
+  display: inline-block;
+  margin: 1rem;
+  width: 280px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-link:hover {
+  transform: scale(1.05);
+}
+
+.project-link img {
+  width: 100%;
+  display: block;
+}
+
+.project-link figcaption {
+  padding: 1rem;
+  font-weight: bold;
+}
+
+#contact {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+#contact h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #projects {
+    padding: 3rem 1rem;
+  }
+
+  .project-link {
+    width: 90%;
+  }
+
+  #welcome-section h1 {
+    font-size: 1.5rem;
+  }
+
+  #welcome-section p {
+    font-size: 1rem;
+  }
+
+  #welcome-section {
+    padding-top: 180px;
+  }
+}
