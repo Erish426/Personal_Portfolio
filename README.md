@@ -4,16 +4,15 @@
 🌐 Live Website
     You can view it here: https://erish426.github.io/Personal_Portfolio/
 
-📌 Features
+📌 Features:
     About Me
     Projects
     Contact Info
 
-🛠️ Built With
+🛠️ Built With:
     HTML5, CSS
 
-💡  Future Updates
-    I plan to:
+💡  Future Updates:
       Improve Design
       Use Js for interactivity
       Create and add new projects
