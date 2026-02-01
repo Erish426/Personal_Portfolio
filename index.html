@@ -1,61 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>My Personal Portfolio</title>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <header>
-    <nav id="navbar">
-      <a href="#welcome-section">Home</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
-  <main id="main-content">
-    <section id="welcome-section">
-      <h1>Hi, I'm <a id="profile-link" href="https://www.freecodecamp.org/Mico0426" target="_blank">Mico Erish D.C. Bautista</a> — Aspiring Full-Stack Developer</h1>
-      <p>
-        I'm passionate about building software solutions that make life easier. I’m currently focused on Java development and backend programming using JDBC with SQL Server. I also enjoy creating simple, responsive websites with HTML and CSS.
-      </p>
-      <p>
-        As a beginner, I’m always learning and exploring new tools to improve my skills. Whether it's designing a basic survey form or developing a console-based banking system, I take pride in turning ideas into working projects.
-      </p>
-    </section>
-    <section id="projects">
-      <h2>Projects</h2>
-      <a href="https://erish426.github.io/Survey_Form/" target="_blank" class="project-link">
-        <figure class="project-tile">
-          <img src="https://i.postimg.cc/CLgFkvz2/survey-form.png" alt="Survey Form project screenshot" />
-          <figcaption>Survey Form</figcaption>
-        </figure>
-      </a>
-      <a href="https://erish426.github.io/Tribute_Page/" target="_blank" class="project-link">
-        <figure class="project-tile">
-          <img src="https://i.postimg.cc/dQds7Mtd/tribute-page.png" alt="Tribute Page project screenshot" />
-          <figcaption>Tribute Page</figcaption>
-        </figure>
-      </a>
-      <a href="https://erish426.github.io/Technical_Documentation_Page/" target="_blank" class="project-link">
-        <figure class="project-tile">
-          <img src="https://i.postimg.cc/vTWbCnSX/technical-documentation-page.png" alt="Technical Documentation Page screenshot" />
-          <figcaption>Technical Documentation Page</figcaption>
-        </figure>
-      </a>
-      <a href="https://erish426.github.io/Product_Landing_Page/" target="_blank" class="project-link">
-        <figure class="project-tile">
-          <img src="https://i.postimg.cc/G3ypCS9g/product-landing-page.png" alt="Product Landing Page screenshot" />
-          <figcaption>Product Landing Page</figcaption>
-        </figure>
-      </a>
-    </section>
-  </main>
-  <footer id="contact">
-    <h3>Mico Erish DC. Bautista</h3>
-    <p>bmico9966@gmail.com</p>
-    <p>+63 961 820 7178</p>
-  </footer>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="images/Code.svg" alt="Sample logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#about-me">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="home">
+                <div class="left-div">
+                    <img src="images/Profile Picture.jpg">
+                </div>
+                <div class="right-div">
+                    <p>HI, I AM ERISH, A JUNIOR FULL-STACK DEVELOPER.</p>
+                    <h1>WELCOME TO MY PORTFOLIO</h1>
+                    <p>I BUILD WHAT YOU IMAGINE.</p>
+                </div>
+            </section>
+            <section id="projects">
+                <h2>FEEL FREE TO CHECK OUT MY WORKS</h2>
+                <div class="card">
+                    <a href="https://erish426.github.io/Survey_Form/">
+                        <img src="https://i.postimg.cc/CLgFkvz2/survey_form.png">
+                        <h3>Survey Form</h3>
+                        <p>CLICK HERE FOR LIVE VIEW</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="https://erish426.github.io/Tribute_Page/">
+                        <img src="https://i.postimg.cc/dQds7Mtd/tribute_page.png">
+                        <h3>Tribute Page</h3>
+                        <p>CLICK HERE FOR LIVE VIEW</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="https://erish426.github.io/Technical_Documentation_Page/">
+                        <img src="https://i.postimg.cc/vTWbCnSX/technical_documentation_page.png">
+                        <h3>Technical Documentation Page</h3>
+                        <p>CLICK HERE FOR LIVE VIEW</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="https://erish426.github.io/Product_Landing_Page/">
+                        <img src="https://i.postimg.cc/G3ypCS9g/product_landing_page.png">
+                        <h3>Product Landing Page</h3>
+                        <p>CLICK HERE FOR LIVE VIEW</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="https://erish426.github.io/To-Do-App/">
+                        <img src="https://i.postimg.cc/ZqMJ9fB8/To_Do_App.png">
+                        <h3>ToDo App</h3>
+                        <p>CLICK HERE FOR LIVE VIEW</p>
+                    </a>
+                </div>
+            </section>
+            <section id="certifications">
+                <h2>Certifications</h2>
+                <img src="https://i.postimg.cc/MTrk3Xbf/Legacy_Responsive_Web_Design_Certification.png">
+            </section>
+            <section id="about-me">
+                <p>I am passionate about developing software solutions that enhance efficiency and usability. 
+                    Currently, I am focused on Java development and backend programming, utilizing JDBC with 
+                    SQL Server. I also have experience in creating clean, responsive websites using HTML, CSS, 
+                    and JavaScript.</p>
+                <br><br>
+                <p>As an aspiring developer, I continuously seek opportunities to expand my technical skills 
+                    and explore new tools and technologies. My projects range from foundational applications 
+                    such as ToDo apps and calculators to more complex implementations, including console-based 
+                    banking systems and simple RPG games. I take pride in transforming ideas into functional and 
+                    reliable software solutions.</p>
+            </section>
+        </main>
+        <footer>
+            <address id="contact">
+                <a href="mailto:bmico9966@gmail.com">
+                    <img src="images/Email.svg" alt="Email logo" class="social-icon" height="20">
+                    <span>bmico9966@gmail.com</span></a>
+                <a href="https://www.facebook.com/cong426">
+                    <img src="images/Facebook.svg" alt="Facebook logo" class="social-icon" height="20">
+                    <span>Bautista Erish</span>
+                </a>
+                <a href="tel:+639618207178" class="contact-item">
+                    <img src="images/Viber.svg" alt="Viber logo" class="social-icon" height="20">
+                    <span>0961-820-7178</span>
+                </a>
+            </address>
+        </footer>
+
+        <script src="index.js"></script>
+    </body>
 </html>
